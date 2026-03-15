@@ -1,0 +1,6 @@
+C:\Users\sanja\source\repos\Assignment01\amstrong_number\bin\Debug\amstrong_number.dll
+C:\Users\sanja\source\repos\Assignment01\amstrong_number\bin\Debug\amstrong_number.pdb
+C:\Users\sanja\source\repos\Assignment01\amstrong_number\obj\Debug\amstrong_number.csproj.AssemblyReference.cache
+C:\Users\sanja\source\repos\Assignment01\amstrong_number\obj\Debug\amstrong_number.csproj.CoreCompileInputs.cache
+C:\Users\sanja\source\repos\Assignment01\amstrong_number\obj\Debug\amstrong_number.dll
+C:\Users\sanja\source\repos\Assignment01\amstrong_number\obj\Debug\amstrong_number.pdb
