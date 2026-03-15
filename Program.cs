@@ -1,41 +1,44 @@
-﻿using CommandLineNumbers;
-using GuessTheNumberGame;
-using loops;
-using Palindrome;
-using ArrayTest;
-using System;
-using System.Collections;
+﻿using _11_march_assignments;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine($"Enter a value to check palindrome or not:");
-        string P_input = Console.ReadLine();
-        PalindromeString P = new PalindromeString();
-        P.Palindromee(P_input);
-
-
-        NumberStats stats = new NumberStats();
-        stats.Calculate(args);
-
-
-        Console.WriteLine($"Enter a value to guess the number :");
-        int G_input = int.Parse(Console.ReadLine());
-        GuessNumber G = new GuessNumber();
-        G.GuessTheNumber(G_input);
-
-
-        ForWhileLoops F = new ForWhileLoops();
-        Console.WriteLine($"Enter a value to print from For and while loop :");
-        string F_input = Console.ReadLine();
-        F.ForLoop(F_input);
-
-
-        ArrayPractice A = new ArrayPractice();
-        A.Arrayy();
+        //ProductDetails P = new ProductDetails();
+        //P.takeValues();
+        //P.GetValues();
 
 
 
+        //Book B = new Book();
+        //B.ProcessBooks();
+
+
+        //BankAccount game = new BankAccount("Game", 0);
+        //game.StartGame();
+
+
+
+        //Console.WriteLine("Select Course Type 1/2/3 to select :");
+        //Console.WriteLine("1. Online");
+        //Console.WriteLine("2. In-Person");
+        //Console.WriteLine("3. Lab");
+
+        //int choice = Convert.ToInt32(Console.ReadLine());
+
+        //Course course = null;
+
+        //if (choice == 1)
+        //    course = new OnlineCourse();
+        //else if (choice == 2)
+        //    course = new InPersonCourse();
+        //else
+        //    course = new LabCourse();
+
+        //course.Enroll();
+
+
+        Account a = new Account("temp", 0, "savings");
+        a.StartBank();
     }
 }
