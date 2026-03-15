@@ -1,84 +1,39 @@
-﻿    using System;
-    using assignment_A;
-    using amstrong_number;
-    using factorial;
-    using prime_number;
-    using fibonacci_series;
-    class Assignment01
+﻿using CommandLineNumbers;
+using GuessTheNumberGame;
+using loops;
+using Palindrome;
+using ArrayTest;
+using System;
+using System.Collections;
+
+public class Program
+{
+    public static void Main(string[] args)
     {
-        public static void Main(String[] args)
-        {
-
-        /* //reverseing number
-         Console.WriteLine("Give some Value to reverse :");
-         int R_input = int.Parse(Console.ReadLine());
-         ReverseNumber01 rev =new ReverseNumber01();
-         Console.WriteLine("Reversed Number : "+rev.ReverseNumber(R_input));/*
+        Console.WriteLine($"Enter a value to check palindrome or not:");
+        string P_input = Console.ReadLine();
+        PalindromeString P = new PalindromeString();
+        P.Palindromee(P_input);
 
 
-        //amstrong
-         
-
-         /* 
+        NumberStats stats = new NumberStats();
+        stats.Calculate(args);
 
 
+        Console.WriteLine($"Enter a value to guess the number :");
+        int G_input = int.Parse(Console.ReadLine());
+        GuessNumber G = new GuessNumber();
+        G.GuessTheNumber(G_input);
 
 
-          amstrong amt = new amstrong();
-        Console.WriteLine("Give some Value to check amstrong number or not :");
-        int am_input = int.Parse(Console.ReadLine());
-        int output = amt.AmstrongNumber(am_input);
-        if (am_input == output)
-        {
-            Console.WriteLine($" {output} it is Amstrong Number ");
-        }
-        else
-        {
-            Console.WriteLine($"{output} is not Amstrong Number");
-        }
+        ForWhileLoops F = new ForWhileLoops();
+        Console.WriteLine($"Enter a value to print from For and while loop :");
+        string F_input = Console.ReadLine();
+        F.ForLoop(F_input);
 
 
-
-
-          // fibonacci
-        Console.WriteLine("Enter how many Fibonacci numbers:");
-        int Fab_input = int.Parse(Console.ReadLine());
-
-        Fibonacci fib = new Fibonacci();
-        fib.PrintFibonacci(Fab_input);
-
-
-
-
-
-
-         //prime_number
-        Console.WriteLine("Give some Value to check prime number :");
-        Prime_num P = new Prime_num();
-        int P_input = int.Parse(Console.ReadLine());
-        int P_output = P.Primee(P_input);
-        if (P_output == 2)
-        {
-            Console.WriteLine($" {P_input}is prime number ");
-        }
-        else
-        {
-            Console.WriteLine($" {P_input}is not prime number ");
-        }
-
-
-*/
-
-
-        //factorial
-        Factorial F = new Factorial();
-        Console.WriteLine("Give some Value for factorial :");
-        int F_input = int.Parse(Console.ReadLine());
-        int F_output = F.Value(F_input);
-        Console.WriteLine($" Factorial of {F_input} is {F_output} ");
-
-
-
+        ArrayPractice A = new ArrayPractice();
+        A.Arrayy();
 
 
 
